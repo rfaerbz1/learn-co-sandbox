@@ -24,6 +24,8 @@ class CodeMessage
     print("\nYour coded message is:")
     print("\n\t" + codedMessage + "\n")
   end
+  
+  def decodeMessage
 end
 
 code = CodeMessage.new
