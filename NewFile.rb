@@ -16,12 +16,6 @@ class CodeMessage
       letterArray[0].each do|letter|
         codedMessage += letter
       end
-    print("\nCoding your message...")
-    sleep(2)
-    print("\nPrinting your message...")
-    sleep(1)
-    print("\nYour coded message is:")
-    print("\n\t" + codedMessage + "\n")
     end
   end
 end
