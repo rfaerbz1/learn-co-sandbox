@@ -54,4 +54,11 @@ class CodeMessage
 end
 
 code = CodeMessage.new
-code.decodeMessage
+
+print("Do you want to code or decode a message (type code or decode)\n")
+action = gets.chomp
+if action == "code"
+  code.codeMessage
+elsif action == "decode"
+  code.decodeMessage
+end
