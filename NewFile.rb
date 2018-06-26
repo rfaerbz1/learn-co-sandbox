@@ -21,8 +21,8 @@ class CodeMessage
   sleep(2)
   print("\nPrinting your message...")
   sleep(1)
-  print("\nYour coded message is:\n")
-  print(codedMessage + "\n")
+  print("\nYour coded message is:")
+  print("\n\t" + codedMessage + "\n")
   end
 end
 
