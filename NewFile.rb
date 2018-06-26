@@ -1,6 +1,6 @@
 class CodeMessage
   def codeMessage
-    print("Input the message you want to be coded\n")
+    print("Input the message you want to be coded\n\t")
     message = gets.chomp.downcase;
     message = message.to_s # makes the message a string
     
