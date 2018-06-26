@@ -4,7 +4,7 @@ class CodeMessage
     message = gets.chomp.downcase;
     message = message.to_s # makes the message a string
     
-    wordArray = message.split(" ") # splits message up whenever there is a space and puts them into an array
+    wordArray = message.split(" ", "!") # splits message up whenever there is a space and puts them into an array
     letterArray = [];
     codedMessage = "";
   
