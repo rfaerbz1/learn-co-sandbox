@@ -36,8 +36,10 @@ class CodeMessage
   
     wordArray.each do|word|
       letterArray[0] = (word.split("")) # makes an array with each letter being a seperate value
+      letterArray[0].delete_at(letterArray[0].length - 1) # deletes the y at the end
+      letterArray[0].delete_at(letterArray[0].length - 1) # deletes the a at the end
       letterArray[0].insert(0, letterArray[0][letterArray[0].length - 1]) # puts the last letter and puts it at the beginning
-      letterArray[0].delete_at(letterArray[0].length - 1) # deletes the last letter
+      letterArray[0].delete_at(letterArray[0].length - 1) # deletes the last letter (of the actual word)
       letterArray[0].push(" ") # adds a space to the end of the word
     
       letterArray[0].each do|letter|
