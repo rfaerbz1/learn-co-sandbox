@@ -61,4 +61,6 @@ if action == "code"
   code.codeMessage
 elsif action == "decode"
   code.decodeMessage
+else
+  print("invalid function")
 end
