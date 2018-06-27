@@ -55,7 +55,7 @@ end
 
 code = CodeMessage.new
 
-print("Do you want to code or decode a message (type code or decode)\n")
+print("Do you want to code or decode a message (type code or decode)\n\t")
 action = gets.chomp
 if action == "code"
   code.codeMessage
