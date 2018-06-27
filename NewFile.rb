@@ -62,5 +62,5 @@ if action == "code"
 elsif action == "decode"
   code.decodeMessage
 else
-  print("invalid function")
+  print("invalid function\n")
 end
